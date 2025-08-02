@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <title>Dashboard</title>
+</head>
+<body>
+    
+    <header class="header">
+        <section class="container">
+            <img src="../img/SVG/notification.svg" alt="notification" class="notification">
+            <h4 class="title-4">Личный кабинет</h4>
+            <img src="../img/dashboard/my_photo.jpg" alt="my_photo" class="my_photo">
+        </section>
+    </header>
+
+    <section class="container">
+
+        <main class="main">
+            <ul class="project_cards">
+                <li class="project_cards__card main__card">
+                    <img src="../img/dashboard/card_icon/foxtrox.jpg" alt="icon" class="project_cards__card__icon">
+                    <span class="project_cards__card__name">Foxtrot</span>
+                    <a href="#" class="move_on">
+                        <img src="../img/SVG/move_on.svg" alt="move on">
+                    </a>
+                </li>
+                <li class="project_cards__card">
+                    <img src="../img/dashboard/card_icon/rozetka.jpg" alt="icon" class="project_cards__card__icon">
+                    <span class="project_cards__card__name">Rozetka</span>
+                </li>
+                <li class="project_cards__card">
+                    <img src="../img/dashboard/card_icon/allo.jpg" alt="icon" class="project_cards__card__icon">
+                    <span class="project_cards__card__name">Allo</span>
+                </li>
+            </ul>
+
+            <section class="balance">
+                <a href="#" class="balance__block">
+                    <img src="../img/dashboard/balance/purse.jpg" alt="purse" class="balance__block__img">
+                    <p class="balance__block__title">Баланс:</p>
+                    <p class="balance__block__sum">1 250 000 руб.</p>
+                </a>
+                <a href="#" class="balance__block">
+                    <img src="../img/dashboard/balance/purse.jpg" alt="cash back" class="balance__block__img">
+                    <p class="balance__block__title">Выручка:</p>
+                    <p class="balance__block__sum">86 316 руб.</p>
+                </a>
+            </section>
+
+            <section class="services_list">
+                <a href="#" class="services_list__item">
+                    <div class="services_list__item__icon">
+                        <img src="../img/SVG/payments.svg" alt="payments">
+                    </div>
+                    <span class="services_list__item__text">Платежи</span>
+                    <img src="../img/SVG/move_on.svg" alt="move on">
+                </a>
+                <a href="#" class="services_list__item">
+                    <div class="services_list__item__icon">
+                        <img src="../img/SVG/repay.svg" alt="repay">
+                    </div>
+                    <span class="services_list__item__text">Выплаты</span>
+                    <img src="../img/SVG/move_on.svg" alt="move on">
+                </a>
+                <a href="#" class="services_list__item">
+                    <div class="services_list__item__icon">
+                        <img src="../img/SVG/technical_support.svg" alt="technical support">
+                    </div>
+                    <span class="services_list__item__text">Техническая поддержка</span>
+                    <img src="../img/SVG/move_on.svg" alt="move on">
+                </a>
+            <section/>
+
+            <section class="statistics">
+                <div class="statistics__header">
+                    <img class="statistics__header__icon" src="../img/SVG/statistics.svg" alt="statistics">
+                    <span class="statistics__header__text">Статистика</span>
+                    <div class="statistics__header__parameters">
+                        <span class="statistics__header__parameters__interval">за месяц</span>
+                        <img src="../img/SVG/parameters.svg" alt="parameters">
+                    </div>
+                </div>
+
+                <div class="graph"></div>
+
+                <div class="completed">
+                    <div class="completed__successfully">
+                        <img src="../img/SVG/blue_circle.svg" alt="successfully">
+                        <span class="completed__text">Успешные</span>
+                    </div>
+                    <div class="completed__unpaid">
+                        <img src="../img/SVG/red_circle.svg" alt="unpaid">
+                        <span class="completed__text">Неоплаченные</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+
+        </footer>
+
+    </section>
+</body>
+</html>

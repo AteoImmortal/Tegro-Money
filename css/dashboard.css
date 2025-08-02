@@ -1,0 +1,175 @@
+.header {
+    background-color: #fff;
+}
+
+.header .container{
+    padding: 12px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my_photo {
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.main {
+    padding: 24px 0 40px;
+}
+
+.project_cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.project_cards__card {
+    margin: 0 13px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+
+    text-align: left;
+    border-radius: 16px;
+    box-shadow: 0 32px 24px -16px rgba(0, 37, 91, 0.04);
+    background: #ffffff;
+}
+
+.project_cards__card__name {
+    margin: 0 auto 0 16px;
+    font-weight: 500;
+    color: #7a8a98;
+}
+
+.main__card {
+    margin: 0;
+}
+
+.main__card .project_cards__card__name {
+    color: #01060c;
+}
+
+.move_on {
+    height: 40px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.balance {
+    margin: 32px 0;
+    display: flex;
+    column-gap: 19px;
+    justify-content: space-between;
+}
+
+.balance__block {
+    padding: 28px 0;
+    width: 155px;
+    text-align: center;
+
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+
+.balance__block__img {
+    margin-bottom: 16px;
+}
+
+.balance__block__title {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.balance__block__sum {
+    font-size: 14px;
+    color: #7a8a98;
+}
+
+.services_list {
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
+
+.services_list__item {
+    padding: 11px 16px 11px 11px;
+
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+
+    box-shadow: 0 32px 24px -16px rgba(0, 37, 91, 0.04);
+    background-color: #ffffff;
+}
+
+.services_list__item__icon {
+    width: 40px;
+    height: 40px;
+    
+    display: flex;
+    border-radius: 8px;
+    background-color: #f7fafe;
+}
+
+.services_list__item__icon img {
+    margin: auto;
+}
+
+.services_list__item__text {
+    margin: 0 auto 0 16px;
+}
+
+.statistics {
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+
+.statistics__header {
+    padding: 23px 16px;
+    display: flex;
+    align-items: center;
+}
+
+.statistics__header__text {
+    margin-left: 16px;
+    font-size: 14px;
+    color: #0e0b2b;
+}
+
+.statistics__header__parameters {
+    margin-left: auto;
+    display: flex;
+    column-gap: 8px;
+}
+
+.statistics__header__parameters__interval {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #7a8a98;
+}
+
+.graph {
+    height: 170px;
+}
+
+.completed {
+    padding: 25px;
+    display: flex;
+    column-gap: 41px;
+}
+
+.completed__successfully, .completed__unpaid {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+
+    font-size: 12px;
+    color: #7a8a98;
+}
