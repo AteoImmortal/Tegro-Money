@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/payments.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <title>Выплаты</title>
+</head>
+<body>
+    <header class="header">
+        <section class="container">
+            <a href="./dashboard.html" class="move_back">
+                <img src="../img/SVG/move_back.svg" alt="move back">
+            </a>
+            <h4 class="title-4">Выплаты</h4>
+            <a class="my_photo" href="./profile.html">
+                <img src="../img/dashboard/my_photo.jpg" alt="my_photo">
+            </a>
+        </section>
+    </header>
+
+    <section class="container">
+        <main class="main">
+            <ul class="project_cards">
+                <li class="project_cards__card main__card">
+                    <img src="../img/dashboard/card_icon/foxtrox.jpg" alt="icon" class="project_cards__card__icon">
+                    <span class="project_cards__card__name">Foxtrot</span>
+                    <a href="#" class="move_on">
+                        <img src="../img/SVG/move_on.svg" alt="move on">
+                    </a>
+                </li>
+                <li class="project_cards__card">
+                    <img src="../img/dashboard/card_icon/rozetka.jpg" alt="icon" class="project_cards__card__icon">
+                    <span class="project_cards__card__name">Rozetka</span>
+                </li>
+                <li class="project_cards__card">
+                    <img src="../img/dashboard/card_icon/allo.jpg" alt="icon" class="project_cards__card__icon">
+                    <span class="project_cards__card__name">Allo</span>
+                </li>
+            </ul>
+
+            <section class="operation">
+                <div class="operation__info">
+                    <span class="operation__info__text">Всего Выплат:</span>
+                    <span class="operation__info__quantity">14</span>
+                    <button class="operation__filter">
+                        <img src="../img/SVG/filter.svg" alt="filter">
+                    </button>
+                </div>
+                <ul class="operation__list">
+
+                    <li class="operation__item">
+                        <section class="operation__item__main__info">
+                            <section class="operation__item__info">
+                                <p class="operation__item__name">Тинькофф эквайринг</p>
+                                <p class="operation__item__time">24 января в 21:06:11</p>
+                            </section>
+                            <span class="operation__item__status operation__item__status--completed">Выполнено</span>
+                        </section>
+
+                        <ul class="operation__item__full__info">
+                            <li class="operation__item__full__info__detail">
+                                <span class="operation__item__full__info__detail__parameter">Сумма</span>
+                                <span class="operation__item__full__info__detail__meaning">1200 руб.</span>
+                            </li>
+                            <li class="operation__item__full__info__detail">
+                                <span class="operation__item__full__info__detail__parameter">Комиссия</span>
+                                <span class="operation__item__full__info__detail__meaning">120 руб.</span>
+                            </li>
+                            <li class="operation__item__full__info__detail">
+                                <span class="operation__item__full__info__detail__parameter">ID платежа</span>
+                                <span class="operation__item__full__info__detail__meaning">264</span>
+                            </li>
+                            <li class="operation__item__full__info__detail">
+                                <span class="operation__item__full__info__detail__parameter">Email</span>
+                                <span class="operation__item__full__info__detail__meaning">radiorublic@mail.ru</span>
+                            </li>
+                            <li class="operation__item__full__info__detail">
+                                <span class="operation__item__full__info__detail__parameter">IP-адрес</span>
+                                <span class="operation__item__full__info__detail__meaning">81.162.121.87</span>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="operation__item">
+                        <section class="operation__item__main__info">
+                            <section class="operation__item__info">
+                                <p class="operation__item__name">ЮMoney</p>
+                                <p class="operation__item__time">12 марта в 03:25:56</p>
+                            </section>
+                            <span class="operation__item__status operation__item__status--in_progress">В процессе</span>
+                        </section>
+
+                        <ul class="operation__item__full__info">
+                            <li class="operation__item__full__info__detail">
+                                <span class="operation__item__full__info__detail__parameter">Сумма</span>
+                                <span class="operation__item__full__info__detail__meaning">980 руб.</span>
+                            </li>
+                            <li class="operation__item__full__info__detail">
+                                <span class="operation__item__full__info__detail__parameter">Комиссия</span>
+                                <span class="operation__item__full__info__detail__meaning">35 руб.</span>
+                            </li>
+                            <li class="operation__item__full__info__detail">
+                                <span class="operation__item__full__info__detail__parameter">ID платежа</span>
+                                <span class="operation__item__full__info__detail__meaning">276</span>
+                            </li>
+                            <li class="operation__item__full__info__detail">
+                                <span class="operation__item__full__info__detail__parameter">Email</span>
+                                <span class="operation__item__full__info__detail__meaning">ateolin@mail.ru</span>
+                            </li>
+                            <li class="operation__item__full__info__detail">
+                                <span class="operation__item__full__info__detail__parameter">IP-адрес</span>
+                                <span class="operation__item__full__info__detail__meaning">81.162.121.87</span>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="operation__item">
+                        <section class="operation__item__main__info">
+                            <section class="operation__item__info">
+                                <p class="operation__item__name">Toncoin</p>
+                                <p class="operation__item__time">12 января в 10:32:13</p>
+                            </section>
+                            <span class="operation__item__status operation__item__status--in_progress">В процессе</span>
+                        </section>
+
+                        <ul class="operation__item__full__info">
+                            <li class="operation__item__full__info__detail">
+                                <span class="operation__item__full__info__detail__parameter">Сумма</span>
+                                <span class="operation__item__full__info__detail__meaning">1700 руб.</span>
+                            </li>
+                            <li class="operation__item__full__info__detail">
+                                <span class="operation__item__full__info__detail__parameter">Комиссия</span>
+                                <span class="operation__item__full__info__detail__meaning">200 руб.</span>
+                            </li>
+                            <li class="operation__item__full__info__detail">
+                                <span class="operation__item__full__info__detail__parameter">ID платежа</span>
+                                <span class="operation__item__full__info__detail__meaning">194</span>
+                            </li>
+                            <li class="operation__item__full__info__detail">
+                                <span class="operation__item__full__info__detail__parameter">Email</span>
+                                <span class="operation__item__full__info__detail__meaning">mrotik@mail.ru</span>
+                            </li>
+                            <li class="operation__item__full__info__detail">
+                                <span class="operation__item__full__info__detail__parameter">IP-адрес</span>
+                                <span class="operation__item__full__info__detail__meaning">81.162.121.87</span>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </section>
+            <button class="operation__show_more">Показать ещё</button>
+        </main>
+
+    </section>
+
+</body>
+</html>

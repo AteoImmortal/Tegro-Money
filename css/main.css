@@ -25,26 +25,19 @@ a {
 }
 
 .title-1 {
-    font-family: "Rubik", sans-serif;
     font-weight: 800;
     font-size: 60px;
     line-height: 100%;
-    color: #01060c;
 }
 
 .title-2 {
-    font-family: "Rubik", sans-serif;
-    font-weight: 700;
     font-size: 30px;
     line-height: 100%;
-    color: #01060c;
 }
 
 .title-3 {
-    font-family: "Rubik", sans-serif;
     font-weight: 700;
     font-size: 24px;
-    color: #01060c;
 }
 
 .title-4 {
@@ -52,15 +45,22 @@ a {
     font-size: 15px;
     line-height: 100%;
     text-transform: uppercase;
-    color: #01060c;
 }
 
-.title-5 {
-    
+.header {
+    background-color: #fff;
 }
 
-.title-6 {
-    
+.header .container{
+    padding: 12px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-
+.my_photo {
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}

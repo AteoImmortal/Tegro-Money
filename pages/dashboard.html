@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/dashboard.css">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
@@ -17,7 +17,9 @@
         <section class="container">
             <img src="../img/SVG/notification.svg" alt="notification" class="notification">
             <h4 class="title-4">Личный кабинет</h4>
-            <img src="../img/dashboard/my_photo.jpg" alt="my_photo" class="my_photo">
+            <a class="my_photo" href="./profile.html">
+                <img src="../img/dashboard/my_photo.jpg" alt="my_photo">
+            </a>
         </section>
     </header>
 
@@ -43,29 +45,29 @@
             </ul>
 
             <section class="balance">
-                <a href="#" class="balance__block">
+                <div class="balance__block">
                     <img src="../img/dashboard/balance/purse.jpg" alt="purse" class="balance__block__img">
                     <p class="balance__block__title">Баланс:</p>
                     <p class="balance__block__sum">1 250 000 руб.</p>
-                </a>
-                <a href="#" class="balance__block">
+                </div>
+                <div class="balance__block">
                     <img src="../img/dashboard/balance/purse.jpg" alt="cash back" class="balance__block__img">
                     <p class="balance__block__title">Выручка:</p>
                     <p class="balance__block__sum">86 316 руб.</p>
-                </a>
+                </div>
             </section>
 
             <section class="services_list">
-                <a href="#" class="services_list__item">
+                <a href="./payments.html" class="services_list__item">
                     <div class="services_list__item__icon">
                         <img src="../img/SVG/payments.svg" alt="payments">
                     </div>
                     <span class="services_list__item__text">Платежи</span>
                     <img src="../img/SVG/move_on.svg" alt="move on">
                 </a>
-                <a href="#" class="services_list__item">
+                <a href="./repayment.html" class="services_list__item">
                     <div class="services_list__item__icon">
-                        <img src="../img/SVG/repay.svg" alt="repay">
+                        <img src="../img/SVG/repayment.svg" alt="repayment">
                     </div>
                     <span class="services_list__item__text">Выплаты</span>
                     <img src="../img/SVG/move_on.svg" alt="move on">
@@ -103,10 +105,6 @@
                 </div>
             </section>
         </main>
-
-        <footer class="footer">
-
-        </footer>
 
     </section>
 </body>

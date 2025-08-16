@@ -1,0 +1,126 @@
+.main {
+
+}
+
+.main__profile__user {
+    padding: 32px 0 52px;
+    text-align: center;
+
+    position: relative;
+
+    backdrop-filter: blur(48px);
+    background: #eff3f9;
+}
+
+.main__profile__user__img {
+    margin-bottom: 16px;
+}
+
+.main__profile__user__name {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.main__profile__user__tell, .main__profile__user__email {
+    margin-top: 8px;
+
+    font-size: 12px;
+    line-height: 100%;
+    color: #7a8a98;
+}
+
+.main__profile__user__connect {
+    padding: 8px 16px;
+    border-radius: 8px;
+
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    display: flex;
+    column-gap: 24px;
+
+    box-shadow: 0 32px 24px -16px rgba(0, 37, 91, 0.04);
+    background: #ffffff;
+}
+
+.balance {
+    margin: 32px 0;
+    display: flex;
+    column-gap: 19px;
+    justify-content: space-between;
+}
+
+.balance__block {
+    padding: 28px 0;
+    width: 155px;
+    text-align: center;
+
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+
+.balance__block__img {
+    margin-bottom: 16px;
+}
+
+.balance__block__title {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.balance__block__sum {
+    font-size: 14px;
+    color: #7a8a98;
+}
+
+.project_cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.project_cards__card {
+    margin: 0 13px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+
+    text-align: left;
+    border-radius: 16px;
+    box-shadow: 0 32px 24px -16px rgba(0, 37, 91, 0.04);
+    background: #ffffff;
+}
+
+.project_cards__card__name {
+    margin: 0 auto 0 16px;
+    font-weight: 500;
+    color: #7a8a98;
+}
+
+.main__card {
+    margin: 0;
+}
+
+.main__card .project_cards__card__name {
+    color: #01060c;
+}
+
+.move_on {
+    height: 40px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.footer__text {
+    margin: 48px 0 27px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #7a8a98;
+}
